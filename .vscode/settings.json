@@ -1,4 +1,10 @@
 {
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "johnsoncodehk.volar"
+  ],
+
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -25,35 +31,9 @@
   },
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
-  "file.formatOnSave": true,
   "editor.rulers": [80],
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "johnsoncodehk.volar"
-  ],
-
-
-  
-    "eslint.validate": [
-        "vue",
-        "html",
-        "javascript",
-        "typescript"
-    ],
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-
-    "volar.format.defaultFormatterOptions": {
-        "prettier": {
-          "singleQuote": true
-        }
-    }
-
-
+  "files.trimTrailingWhitespace": true
 }

@@ -9,6 +9,7 @@ const mutations = {
     },
   },
   state = {
+    counter: 0,
     counter99: 0,
     someValue: "Detta är den centrala platsen för information22",
     laenklistan: "tomt",

@@ -7,7 +7,6 @@ export default {
     onClick() {
       this.counter = this.counter + 1;
       this.$emit("value-incremented");
-
       this.$store.commit("increment", 3);
     },
   },
@@ -33,4 +32,10 @@ span {
   Var exakt? Det säger jag inte. Nu har du faktiskt frågat:
 
   <input :value="counter" @click="onClick" type="button" /> ggr.
+
+  <p>
+    Om tre besökare frågar så - då kommer frågan hela
+    {{ $store.state.counter }}
+    gånger
+  </p>
 </template>

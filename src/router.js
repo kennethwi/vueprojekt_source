@@ -1,35 +1,35 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from 'vue-router'
 
-import AboutView from "./views/AboutView.vue";
-import ContactView from "./views/ContactView.vue";
-import HomeView from "./views/HomeView.vue";
-import Laenkar from "./views/Laenkar.vue";
+import AboutView from './views/AboutView.vue'
+import ContactView from './views/ContactView.vue'
+import HomeView from './views/HomeView.vue'
+import LaenkarVue from './views/LaenkarVue.vue'
 
 export default createRouter({
   history: createWebHashHistory(),
   routes: [
     {
       component: AboutView,
-      path: "/about",
+      path: '/about',
 
-      meta: { transition: "zoom" },
+      meta: { transition: 'zoom' }
     },
     {
       component: ContactView,
-      path: "/contact",
+      path: '/contact'
     },
     {
-      component: Laenkar,
-      path: "/laenkar",
+      component: LaenkarVue,
+      path: '/laenkar'
     },
     {
-      component: Laenkar,
-      path: "/laenkar/:artikeltitel",
-      meta: { transition: "zoom" },
+      component: LaenkarVue,
+      path: '/laenkar/:artikeltitel',
+      meta: { transition: 'zoom' }
     },
     {
       component: HomeView,
-      path: "/",
-    },
-  ],
-});
+      path: '/'
+    }
+  ]
+})

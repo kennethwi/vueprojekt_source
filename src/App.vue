@@ -1,15 +1,15 @@
 <script>
-import CitiesList from "./components/CitiesList.vue";
-import HelloWorld from "./components/HelloWorld.vue";
-import Test from "./components/Test.vue";
+  //import CitiesList from './components/CitiesList.vue'
+  //import HelloWorld from './components/HelloWorld.vue'
+  //import Test from "./components/Test.vue";
 
-export default {
-  components: {
-    CitiesList,
-    HelloWorld,
-    //  Test,
-  },
-};
+  export default {
+    components: {
+      //CitiesList,
+      //HelloWorld
+      //  Test,
+    }
+  }
 </script>
 
 <style></style>

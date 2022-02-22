@@ -16,5 +16,5 @@
 </script>
 
 <template>
-
+  <empty />
 </template>

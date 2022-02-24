@@ -11,6 +11,7 @@
   <section class="dummy">
     <h1 style="padding-left: 12px">Kontakt</h1>
     <p />
+
     <p style="text-align: center">
       <KontaktPlats msg="Vi finns i Sverige" />
     </p>

@@ -1,10 +1,4 @@
 {
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "johnsoncodehk.volar"
-  ],
-
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -35,5 +29,6 @@
   "editor.tabSize": 2,
   "files.insertFinalNewline": true,
   "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true
+  "files.trimTrailingWhitespace": true,
+  "prettier.ignorePath": ""
 }

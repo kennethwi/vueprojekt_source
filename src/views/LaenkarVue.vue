@@ -4,5 +4,5 @@
 
   {{ $store.state.laenklistan }}
 
-  <Laenklista />
+  <!-- <Laenklista /> -->
 </template>

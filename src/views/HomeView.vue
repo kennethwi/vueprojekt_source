@@ -1,3 +1,4 @@
+/* eslint-disable vue/html-closing-bracket-newline */
 <link href="/assets/main.scss" rel="stylesheet" />
 
 <style>
@@ -16,6 +17,7 @@
     overflow: auto;
     padding: 40px;
   }
+
   .meddelande {
     padding-left: 22px;
     font-weight: normal;
@@ -59,7 +61,7 @@
 
   export default {
     props: {
-      msg: String
+      msg: { type: String, default: '' }
     },
     data() {
       return {
@@ -96,7 +98,7 @@
         this.soek(this.aktuellt_soekord_input)
 
         //nollställer mha custom event
-        this.$emit('')
+        //this.$emit(nollstaell())
       },
 
       rensa_text(str) {
@@ -292,8 +294,8 @@
           />
           <input type="button" @click="onClick" value="Sök" />
 
-          <span class="meddelande"> {{ n_soek_efter }} </span></span
-        >
+          <span class="meddelande"> {{ n_soek_efter }} </span>
+        </span>
       </form>
     </header>
 

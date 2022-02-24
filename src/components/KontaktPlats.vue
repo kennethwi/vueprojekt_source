@@ -1,27 +1,27 @@
 <script>
-export default {
-  props: {
-    msg: String,
-  },
-  methods: {
-    onClick() {
-      this.counter = this.counter + 1;
-      this.$emit("value-incremented");
-      this.$store.commit("increment", 3);
+  export default {
+    props: {
+      msg: { type: String, default: '' }
     },
-  },
-  data() {
-    return {
-      counter: 0,
-    };
-  },
-};
+    methods: {
+      onClick() {
+        this.counter = this.counter + 1
+        //this.$emit('value-incremented');
+        this.$store.commit('increment', 3)
+      }
+    },
+    data() {
+      return {
+        counter: 0
+      }
+    }
+  }
 </script>
 
 <style>
-span {
-  font-weight: bold;
-}
+  span {
+    font-weight: bold;
+  }
 </style>
 
 <template>

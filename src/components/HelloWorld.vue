@@ -1,15 +1,15 @@
 <script>
-export default {
-  props: {
-    msg: String,
-  },
-};
+  export default {
+    props: {
+      msg: { type: String, default: '' }
+    }
+  }
 </script>
 
 <style>
-span {
-  font-weight: bold;
-}
+  span {
+    font-weight: bold;
+  }
 </style>
 
 <template>
